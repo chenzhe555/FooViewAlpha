@@ -14,7 +14,11 @@
 		949B215722EE8FA4008DD947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949B215622EE8FA4008DD947 /* Assets.xcassets */; };
 		949B215A22EE8FA4008DD947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949B215822EE8FA4008DD947 /* LaunchScreen.storyboard */; };
 		949B215D22EE8FA4008DD947 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 949B215C22EE8FA4008DD947 /* main.m */; };
-		949B216622EE9060008DD947 /* FooViewAlphaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 949B216522EE9060008DD947 /* FooViewAlphaManager.m */; };
+		94EBFE0622F2C03B00EA7CA3 /* FooViewAlphaItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EBFDFC22F2C03B00EA7CA3 /* FooViewAlphaItemsView.m */; };
+		94EBFE0722F2C03B00EA7CA3 /* FooViewToolItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EBFDFF22F2C03B00EA7CA3 /* FooViewToolItemView.m */; };
+		94EBFE0822F2C03B00EA7CA3 /* FooViewAlphaUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EBFE0222F2C03B00EA7CA3 /* FooViewAlphaUtil.m */; };
+		94EBFE0922F2C03B00EA7CA3 /* FloatWindowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EBFE0322F2C03B00EA7CA3 /* FloatWindowView.m */; };
+		94EBFE0A22F2C03B00EA7CA3 /* FooViewAlphaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EBFE0522F2C03B00EA7CA3 /* FooViewAlphaManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +34,16 @@
 		949B215922EE8FA4008DD947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		949B215B22EE8FA4008DD947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		949B215C22EE8FA4008DD947 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		949B216422EE9060008DD947 /* FooViewAlphaManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FooViewAlphaManager.h; sourceTree = "<group>"; };
-		949B216522EE9060008DD947 /* FooViewAlphaManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FooViewAlphaManager.m; sourceTree = "<group>"; };
+		94EBFDFC22F2C03B00EA7CA3 /* FooViewAlphaItemsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooViewAlphaItemsView.m; sourceTree = "<group>"; };
+		94EBFDFD22F2C03B00EA7CA3 /* FooViewAlphaUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooViewAlphaUtil.h; sourceTree = "<group>"; };
+		94EBFDFE22F2C03B00EA7CA3 /* FooViewAlphaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooViewAlphaManager.h; sourceTree = "<group>"; };
+		94EBFDFF22F2C03B00EA7CA3 /* FooViewToolItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooViewToolItemView.m; sourceTree = "<group>"; };
+		94EBFE0022F2C03B00EA7CA3 /* FloatWindowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloatWindowView.h; sourceTree = "<group>"; };
+		94EBFE0122F2C03B00EA7CA3 /* FooViewAlphaItemsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooViewAlphaItemsView.h; sourceTree = "<group>"; };
+		94EBFE0222F2C03B00EA7CA3 /* FooViewAlphaUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooViewAlphaUtil.m; sourceTree = "<group>"; };
+		94EBFE0322F2C03B00EA7CA3 /* FloatWindowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloatWindowView.m; sourceTree = "<group>"; };
+		94EBFE0422F2C03B00EA7CA3 /* FooViewToolItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooViewToolItemView.h; sourceTree = "<group>"; };
+		94EBFE0522F2C03B00EA7CA3 /* FooViewAlphaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooViewAlphaManager.m; sourceTree = "<group>"; };
 		D0313BC35864AF1904D81184 /* Pods-FooViewAlpha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FooViewAlpha.debug.xcconfig"; path = "Target Support Files/Pods-FooViewAlpha/Pods-FooViewAlpha.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,7 +80,7 @@
 		949B214C22EE8FA1008DD947 /* FooViewAlpha */ = {
 			isa = PBXGroup;
 			children = (
-				949B216322EE902B008DD947 /* classes */,
+				94EBFDFB22F2C03B00EA7CA3 /* classes */,
 				949B214D22EE8FA1008DD947 /* AppDelegate.h */,
 				949B214E22EE8FA1008DD947 /* AppDelegate.m */,
 				949B215022EE8FA1008DD947 /* ViewController.h */,
@@ -82,11 +94,19 @@
 			path = FooViewAlpha;
 			sourceTree = "<group>";
 		};
-		949B216322EE902B008DD947 /* classes */ = {
+		94EBFDFB22F2C03B00EA7CA3 /* classes */ = {
 			isa = PBXGroup;
 			children = (
-				949B216422EE9060008DD947 /* FooViewAlphaManager.h */,
-				949B216522EE9060008DD947 /* FooViewAlphaManager.m */,
+				94EBFDFC22F2C03B00EA7CA3 /* FooViewAlphaItemsView.m */,
+				94EBFDFD22F2C03B00EA7CA3 /* FooViewAlphaUtil.h */,
+				94EBFDFE22F2C03B00EA7CA3 /* FooViewAlphaManager.h */,
+				94EBFDFF22F2C03B00EA7CA3 /* FooViewToolItemView.m */,
+				94EBFE0022F2C03B00EA7CA3 /* FloatWindowView.h */,
+				94EBFE0122F2C03B00EA7CA3 /* FooViewAlphaItemsView.h */,
+				94EBFE0222F2C03B00EA7CA3 /* FooViewAlphaUtil.m */,
+				94EBFE0322F2C03B00EA7CA3 /* FloatWindowView.m */,
+				94EBFE0422F2C03B00EA7CA3 /* FooViewToolItemView.h */,
+				94EBFE0522F2C03B00EA7CA3 /* FooViewAlphaManager.m */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -204,9 +224,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				949B216622EE9060008DD947 /* FooViewAlphaManager.m in Sources */,
+				94EBFE0A22F2C03B00EA7CA3 /* FooViewAlphaManager.m in Sources */,
+				94EBFE0622F2C03B00EA7CA3 /* FooViewAlphaItemsView.m in Sources */,
+				94EBFE0722F2C03B00EA7CA3 /* FooViewToolItemView.m in Sources */,
 				949B215222EE8FA1008DD947 /* ViewController.m in Sources */,
 				949B215D22EE8FA4008DD947 /* main.m in Sources */,
+				94EBFE0822F2C03B00EA7CA3 /* FooViewAlphaUtil.m in Sources */,
+				94EBFE0922F2C03B00EA7CA3 /* FloatWindowView.m in Sources */,
 				949B214F22EE8FA1008DD947 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

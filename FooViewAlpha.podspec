@@ -10,6 +10,9 @@ Pod::Spec.new do |s|
   s.subspec 'classes' do |one|
       one.source_files = 'FooViewAlpha/classes/*.{h,m}'
   end
+  s.resource_bundles = {
+    'FooViewAlpha' => ['FooViewAlpha/Assets/*']
+  }
   s.platform = :ios, "9.0"
   s.frameworks = "Foundation", "UIKit"
   # s.libraries = "iconv", "xml2"
