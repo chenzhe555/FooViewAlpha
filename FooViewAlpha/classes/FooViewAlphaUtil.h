@@ -27,7 +27,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 +(UIVisualEffectView *)generateVisualEffectView:(CGRect)bounds corners:(UIRectCorner)corners;
 
-
 /**
  @brief 获取显示文本宽度
  */

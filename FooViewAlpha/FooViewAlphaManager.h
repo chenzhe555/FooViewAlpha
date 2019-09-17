@@ -15,15 +15,17 @@ NS_ASSUME_NONNULL_BEGIN
 @interface FooViewAlphaManager : NSObject
 
 /**
- @brief 获取当前单例
+ @brief 获取当前实例
  */
 +(instancetype)shareManager;
 
+#pragma mark 悬浮按钮
 /**
  @brief 打开悬浮按钮工具
  */
 -(void)openFooViewAlpha;
 
+#pragma mark 工具栏视图
 /**
  @brief 添加工具数组
  */

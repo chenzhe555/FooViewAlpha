@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString * iconName;
 // item名称
 @property (nonatomic, copy) NSString * itemName;
-// model键值，建议用此值做区别
+// model键值
 @property (nonatomic, copy) NSString * key;
 @end
 
